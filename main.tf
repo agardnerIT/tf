@@ -15,7 +15,7 @@ resource "dynatrace_autotag_rules" "sampleagremote" {
     rule {
       type                = "SELECTOR"
       enabled             = true
-      entity_selector     = "type(SERVICE),tag(sampleagremote)"
+      entity_selector     = "type(SERVICE),tag(sampleagremote1)"
       value_format        = "disabled"
       value_normalization = "Leave text as-is"
     }
