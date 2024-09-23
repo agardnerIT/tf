@@ -1,4 +1,4 @@
-resource "dynatrace_autotag_v2" "sample" {
+resource "dynatrace_autotag_v2" "sampleagremote" {
   name                        = "sampleagremote"
   /* ensure that this resource instance doesn't maintain the rules */
   rules_maintained_externally = true
