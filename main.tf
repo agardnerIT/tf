@@ -10,7 +10,7 @@ resource "dynatrace_autotag_v2" "sampleagremot" {
   `dynatrace_autotag_rules` referring to the same `dynatrace_autotag_v2`.
 */
 resource "dynatrace_autotag_rules" "sampleagremot" {
-  auto_tag_id = dynatrace_autotag_v2.sample.id
+  auto_tag_id = dynatrace_autotag_v2.sampleagremot.id
   rules {
     rule {
       type                = "SELECTOR"
