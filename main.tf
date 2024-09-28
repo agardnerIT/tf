@@ -23,8 +23,3 @@ resource "dynatrace_autotag_v2" "crossplane-created" {
     }
   }
 }
-
-# Read additional tags from tags subfolder
-module "tags" {
-  source = "./tags" # Local path or registry source
-}
