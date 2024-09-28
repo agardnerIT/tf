@@ -16,7 +16,7 @@ resource "dynatrace_autotag_v2" "crossplane-created" {
             case_sensitive = true
             key            = "HOST_GROUP_NAME"
             operator       = "EQUALS"
-            string_value   = "fooCrossplane"
+            string_value   = "crossplane"
           }
         }
       }
