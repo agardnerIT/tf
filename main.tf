@@ -25,8 +25,8 @@ resource "dynatrace_autotag_v2" "crossplane-created" {
 }
 
 resource "dynatrace_autotag_v2" "crossplane-created-second" {
-  name                          = "crossplane-created-second"
-  description                   = "second tag from crossplane"
+  name                          = "crossplane-created-second-foo"
+  description                   = "second tag from crossplane foo"
   # rules_maintained_externally = false
   rules {
     rule {
